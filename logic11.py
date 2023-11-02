@@ -6,7 +6,7 @@ def main(a):
     Returns:
         bool: answer
     """
-    return a>99 and a<1000
+    return a<1000 and a>99
 print(main(3))
 print(main(12))
 print(main(123))
